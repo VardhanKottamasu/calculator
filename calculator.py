@@ -10,3 +10,5 @@ print("4 * 6 =", result)
 
 result = divide(8, 2)
 print("8 / 2 =", result)
+
+#Sample for dummy commit

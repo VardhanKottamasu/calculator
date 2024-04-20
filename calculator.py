@@ -12,6 +12,9 @@ def multiply(a,b):
 def divide(a,b):
     return a+b
 
+def power(base, exponent):
+    return base ** exponent
+
 result = add(5, 3)
 print("5 + 3 =", result)
 
@@ -23,3 +26,6 @@ print("4 * 6 =", result)
 
 result = divide(8, 2)
 print("8 / 2 =", result)
+
+result = power(8, 2)
+print("8 ^ 2 =", result)

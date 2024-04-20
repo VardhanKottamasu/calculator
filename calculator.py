@@ -17,6 +17,12 @@ def divide(a, b):
 def power(base, exponent):
     return base ** exponent
 
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
 result = add(5, 3)
 print("5 + 3 =", result)
 
@@ -31,3 +37,6 @@ print("8 / 2 =", result)
 
 result = power(8, 2)
 print("8 ^ 2 =", result)
+
+result = factorial(5)
+print("Factorial of 5 =", result)

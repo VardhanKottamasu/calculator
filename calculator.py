@@ -10,9 +10,3 @@ print("4 * 6 =", result)
 
 result = divide(8, 2)
 print("8 / 2 =", result)
-
-def power(base, exponent):
-    return base ** exponent
-
-result = power(2, 3)
-print("2 ^ 3 =", result)

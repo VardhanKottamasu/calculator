@@ -23,6 +23,9 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
+def modulo(m, n):
+    return m%n
+
 result = add(5, 3)
 print("5 + 3 =", result)
 
@@ -40,3 +43,6 @@ print("8 ^ 2 =", result)
 
 result = factorial(5)
 print("Factorial of 5 =", result)
+
+result = modulo(15,5)
+print("15%5 =", result)
